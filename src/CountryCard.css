@@ -1,0 +1,100 @@
+/* App.css (or wherever you're applying the global styles) */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap; /* Wraps cards to the next line if they don't fit */
+    justify-content: center; /* Aligns the cards in the center of the container */
+    gap: 20px; /* Adds spacing between the cards */
+  }
+  
+  .country-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    background-color: #f9f9f9;
+    flex: 1; /* Makes the card flexible */
+    min-width: 250px; /* Ensures a minimum width so the cards don't become too narrow */
+    background-image: url(../images/FqSL48FaAAArnBY.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg{
+    background-color: rgba(144, 142, 142, 0.7);
+}
+
+  .country-card h2 {
+    color: #333;
+}
+  
+  .country-card p, li {
+    color: whitesmoke;
+}
+  .country-card:hover {
+    background-color: #e0f7fa; 
+}
+  
+  /* Optional: Modify text or border color on hover */
+  .country-card:hover h2 {
+    color: #00796b; /* Change the title color on hover */
+}
+  
+  .country-card:hover {
+    border-color: #00796b; /* Change border color on hover */
+}
+  /* Flexbox for academic and cost of education sections */
+.info-container {
+    display: flex;
+    justify-content: space-between; /* Space between left and right */
+    align-items: flex-start; /* Aligns items to the top */
+    text-align: left;
+    margin-top: 10px;
+}
+  
+  .academic-section, .cost-section {
+    width: 48%; /* Adjust to ensure both sections fit */
+}
+  
+  .academic-section ul, .cost-section p {
+    margin: 0; /* Remove extra spacing */
+}
+
+.info-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out the sections */
+}
+  
+  .academic-section, .cost-section {
+    flex: 1; /* Allow sections to grow and fill available space */
+    padding: 8px; /* Add padding inside sections */
+    border-right: 1px solid #ddd; /* Add a right border to separate sections */
+}
+  
+  .academic-section:last-child {
+    border-right: none; /* Remove border for the last section */
+}
+  
+  h2 {
+    display: flex;
+    align-items: center; /* Align text and flag vertically */
+    font-size: 1.5em;
+}
+  
+  ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+}
+  
+  li {
+    margin-bottom: 8px; /* Add space between list items */
+}
+  
+#country{
+    height: 100px;
+    width: 475px;
+    background-color: rgb(197, 196, 196);
+    padding-left: 25px;
+
+}
+  
